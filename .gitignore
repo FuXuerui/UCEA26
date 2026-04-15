@@ -1,23 +1,52 @@
+# ========================
 # Python
+# ========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual environment
+# ========================
+# Virtual Environment
+# ========================
 .venv/
+venv/
+env/
 
+# ========================
 # Excel temp files
+# ========================
 ~$*.xlsx
 ~$*.xls
 
-# Jupyter / cache
-.ipynb_checkpoints/
+# ========================
+# Output files（建议不提交）
+# ========================
+*.xlsx
+*.csv
 
-# OS / editor
-.DS_Store
-Thumbs.db
-.vscode/
+# 如果你只想忽略特定文件，可以改成：
+# demo_playwright_results.xlsx
 
-# Playwright / runtime artifacts
+# ========================
+# Playwright
+# ========================
 playwright-report/
 test-results/
-.venv/
+
+# ========================
+# Jupyter / cache
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# VS Code / OS
+# ========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
