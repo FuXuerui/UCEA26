@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# Jupyter / cache
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Playwright / runtime artifacts
+playwright-report/
+test-results/
+.venv/
